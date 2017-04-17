@@ -1,0 +1,6 @@
+framework module HXPullRefresh {
+  umbrella header "HXPullRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

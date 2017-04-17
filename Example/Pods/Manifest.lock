@@ -1,0 +1,19 @@
+PODS:
+  - HXPullRefresh (0.1.0):
+    - SnapKit
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - HXPullRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  HXPullRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HXPullRefresh: ef6e7fafe3ddf06c632c39310043ed61fe7903e9
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: ae49be05a9c130a6d50ba05d33132fff265e644e
+
+COCOAPODS: 1.2.1

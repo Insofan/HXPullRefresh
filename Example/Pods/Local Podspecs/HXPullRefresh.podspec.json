@@ -1,0 +1,33 @@
+{
+  "name": "HXPullRefresh",
+  "version": "0.1.0",
+  "summary": "A pull and push refresh framework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Insofan/HXPullRefresh",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Insofan": "insofan3156@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Insofan/HXPullRefresh.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HXPullRefresh/Classes/**/*",
+  "resource_bundles": {
+    "HXPullRefresh": [
+      "HXPullRefresh/Assets/**/*"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}

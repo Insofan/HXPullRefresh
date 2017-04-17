@@ -1,0 +1,6 @@
+framework module Pods_HXPullRefresh_Tests {
+  umbrella header "Pods-HXPullRefresh_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

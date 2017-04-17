@@ -1,0 +1,6 @@
+framework module Pods_HXPullRefresh_Example {
+  umbrella header "Pods-HXPullRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

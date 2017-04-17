@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXPullRefresh_Example' do
+  pod 'HXPullRefresh', :path => '../'
+
+  target 'HXPullRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
