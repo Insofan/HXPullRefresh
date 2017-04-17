@@ -31,10 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HXPullRefresh/Classes/**/*'
-  
-   s.resources = {
-     'HXPullRefresh' => ['HXPullRefresh/Assets/**/*.{svg,png,xib}']
-   }
+
+    s.resources = 'HXPullRefresh/Assets/**/*.{svg,png,xib}'
+   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
