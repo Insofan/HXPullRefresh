@@ -150,7 +150,7 @@
 		AD6660D952963287447C776E341613CF /* HXPullRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXPullRefresh-prefix.pch"; sourceTree = "<group>"; };
 		AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		AE591026257E997E5D4671D3995641C4 /* ResourceBundle-HXPullRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HXPullRefresh-Info.plist"; sourceTree = "<group>"; };
-		AF899EF91EA4E6B9007DB860 /* refreshArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshArrow.png; sourceTree = "<group>"; };
+		AF899EF91EA4E6B9007DB860 /* refreshArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshArrow.png; path = HXPullRefresh/refreshArrow.png; sourceTree = "<group>"; };
 		B31F8F27DD4287A59EEC5D1F7D4EFE65 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C313FB15AF433178580E26683DAFAB /* HXPullRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXPullRefresh-dummy.m"; sourceTree = "<group>"; };
 		BD4EEE68B325AF2B552B8EC99FF5AD25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -222,7 +222,7 @@
 		0C3F2B18BDF453990F1783B75CD3E00E /* HXPullRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				AF899EF81EA4E687007DB860 /* Assets */,
+				AF08FA6B1EA4F44200E8C393 /* Assets */,
 				7FDEE332B314495503F95F6F93468B86 /* Classes */,
 			);
 			path = HXPullRefresh;
@@ -332,6 +332,7 @@
 		914424D76D01E5AA56B4C143EAE696C6 /* HXPullRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				AF08FA691EA4F3F000E8C393 /* Resources */,
 				0C3F2B18BDF453990F1783B75CD3E00E /* HXPullRefresh */,
 				E291370894BC178C3DCC5FF2C673CCD8 /* Support Files */,
 			);
@@ -374,12 +375,28 @@
 			path = "Target Support Files/Pods-HXPullRefresh_Example";
 			sourceTree = "<group>";
 		};
-		AF899EF81EA4E687007DB860 /* Assets */ = {
+		AF08FA691EA4F3F000E8C393 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF08FA6A1EA4F42A00E8C393 /* HXPullRefresh */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF08FA6A1EA4F42A00E8C393 /* HXPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HXPullRefresh;
+			sourceTree = "<group>";
+		};
+		AF08FA6B1EA4F44200E8C393 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				AF899EF91EA4E6B9007DB860 /* refreshArrow.png */,
 			);
 			name = Assets;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CC7756E5073E7584BFE69508FFBBCB90 /* Support Files */ = {

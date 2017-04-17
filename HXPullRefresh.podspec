@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HXPullRefresh/Classes/**/*'
 
-    s.resources = 'HXPullRefresh/Assets/**/*.{svg,png,xib}'
+  s.resource = 'HXPullRefresh/Assets/*.png'
    
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
