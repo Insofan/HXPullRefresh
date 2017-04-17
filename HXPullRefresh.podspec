@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'HXPullRefresh/Classes/**/*'
 
 s.resource_bundles = {
-'HXPullRefresh' => ['HXPullRefresh/Assets/**/*']
+'HXPullRefresh' => ['HXPullRefresh/**/*']
 }
    
 
