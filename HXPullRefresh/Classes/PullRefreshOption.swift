@@ -19,14 +19,15 @@ struct PullRefreshConst {
 }
 
 public struct PullRefreshOption {
-    public var backgroundColor: UIColor
-    public var indicatorColor: UIColor
+    public var backgroundColor: UIColor //The backgroundColor
+    public var indicatorColor: UIColor //The indicatorColor
     public var autoStopTime: Double //0 is not auto stop
     public var fixedSectionHeader: Bool //Update the content inset for fixed section headers
+    
     //refreshLabel option
-    public var refreshLabelText: String
-    public var refreshLabelTextColor: UIColor
-    public var refreshLabelTextFont: CGFloat
+    public var refreshLabelText: String //Label text
+    public var refreshLabelTextColor: UIColor//Label text color
+    public var refreshLabelTextFont: CGFloat//Label text font size
     
     public init(backgroundColor: UIColor = .clear, indicatorColor: UIColor = .gray, autoStopTime: Double = 0, fixedSectionHeader: Bool = false, refreshLabelText: String = "", refreshLabelTextColor: UIColor = .gray, refreshLabelTextFont: CGFloat = 15) {
         self.backgroundColor       = backgroundColor
